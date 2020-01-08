@@ -1,0 +1,10 @@
+/* deploy di uno smart contract sulla blockchain senza avere un client ethereum*/
+/* in questo video c'è un interessante approfondimento sugli hd wallet,
+/* ossia hierarchically deterministic (HD wallet) wallet, presenti nel BIP32 e migliorati nel BIP44 */
+
+/*truffle-hdwallet-provider ci consente di creare un wallet HD per firmare delle transazioni in locale quando deployamo uno smart contract */
+
+/* infura è un servizio. dove infura ti fornisce un full node per te. e puoi connetterlo tramite rpc.
+ti iscrivi su infura e ottieni una chiave api e un url RPC. anche metamask è un hd wallet. 
+
+
